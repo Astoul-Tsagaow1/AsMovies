@@ -1,0 +1,21 @@
+
+
+.MovieListWrapper{
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrapprer img{
+    height: 350px;
+    width: 250px;
+    margin: 5px;
+    border: solid blue;
+}
+.movies{
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}

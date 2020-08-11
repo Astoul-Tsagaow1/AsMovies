@@ -1,0 +1,41 @@
+.TopRated{
+    /* border: solid red 5px; */
+}
+
+.backtopRated{
+    height: 25vh;
+  background-image: url(https://cdn.pixabay.com/photo/2016/06/03/12/42/popcorn-1433331_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+
+}
+
+.TitleTopRated{
+    text-align: center;
+}
+.TitleTopRated h1  {
+    font-family: monospace;
+    width: 25%;
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typingx 3.5s steps(30, end),
+      blink-carety .5s step-end infinite;
+    /* border-bottom: brown solid 10px; */
+}
+
+@keyframes typingx {
+    from { width: 0 }
+    to { width: 25% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-carety {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }

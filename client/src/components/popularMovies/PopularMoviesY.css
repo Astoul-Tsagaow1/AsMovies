@@ -1,0 +1,10 @@
+
+
+.PopularMoviesTitle{
+  text-align: center;
+}
+
+
+.PopularMoviesTitle h1 i {
+  border-bottom: solid red 5px;
+}

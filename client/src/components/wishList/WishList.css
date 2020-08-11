@@ -1,0 +1,48 @@
+
+.WishList{
+  min-height: calc(95vh - 1rem);
+
+}
+
+.WishListBackround{
+
+    height: 65vh;
+  background-image: url(https://images.pexels.com/photos/4009402/pexels-photo-4009402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 30%  ;
+
+}
+
+.Wishlist-title i{
+
+    border-radius: 10px;
+    border-bottom: solid  10px #b94b02;
+  
+  }
+  .Wishlist-title {
+    text-align: center;
+
+  }
+
+  .WishListMovieDetails{
+   /* border: solid; */
+   max-width: 50%;
+  }
+  .WishListMovieDetails img{
+
+    height: 350px;
+
+  }
+
+  .WishListMovies{
+
+    /* border: yellow solid; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+  }
+
+  .WishList{
+      background-color:  #fdb4836e;
+  }

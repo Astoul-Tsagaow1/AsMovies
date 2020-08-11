@@ -1,0 +1,17 @@
+
+
+.similarMoviesWrapper{
+  /* border: solid; */
+  max-width: 100%;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.similarmovies a img {
+
+  width: 215px;
+  height: 320px;
+  margin: 5px;
+}
